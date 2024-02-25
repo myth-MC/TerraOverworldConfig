@@ -20,6 +20,13 @@ jobs:
   
   release:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      pull-requests: write
+      repository-projects: write
+      packages: write
+    
     needs: validate
     if: github.repository == 'myth-MC/TerraOverworldConfig' && github.event_name == 'push'
     env:
