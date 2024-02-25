@@ -121,7 +121,7 @@ gold-uniform:
     max: -48
 
 emerald:
-  averageCountPerChunk: 100
+  averageCountPerChunk: 120
   salt: 5091
   range:
     min: -16
